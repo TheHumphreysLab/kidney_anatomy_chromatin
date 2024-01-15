@@ -1,0 +1,18 @@
+Experiment description: Juicer version 1.6; BWA 0.7.17-r1188; 32 threads; openjdk version "11.0.20.1" 2023-08-24; ./scripts/juicer.sh -d /home/data2/haikuo/hic/M1_fastq -p /home/data2/haikuo/hic/references/hg19/sizes.genome -y /home/data2/haikuo/hic/juicer-1.6/hg19_Arima.txt -z /home/data2/haikuo/hic/references/hg19/GRCh37.primary_assembly.genome.fa -D /home/data2/haikuo/hic/juicer-1.6/CPU                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+Sequenced Read Pairs:  482,596,289
+ Normal Paired: 141,020,195 (29.22%)
+ Chimeric Paired: 278,643,565 (57.74%)
+ Chimeric Ambiguous: 59,181,212 (12.26%)
+ Unmapped: 3,751,317 (0.78%)
+ Ligation Motif Present: 0 (0.00%)
+Alignable (Normal+Chimeric Paired): 419,663,760 (86.96%)
+Intra-fragment Reads: 0 (0.00% / 0.00%)
+Below MAPQ Threshold: 61,116,204 (12.66% / 15.70%)
+Hi-C Contacts: 328,118,611 (67.99% / 84.30%)
+ Ligation Motif Present: 0  (0.00% / 0.00%)
+ 3' Bias (Long Range): 50% - 50%
+ Pair Type %(L-I-O-R): 25% - 25% - 25% - 25%
+Inter-chromosomal: 80,056,702  (16.59% / 20.57%)
+Intra-chromosomal: 248,061,909  (51.40% / 63.73%)
+Short Range (<20Kb): 67,124,372  (13.91% / 17.25%)
+Long Range (>20Kb): 180,935,544  (37.49% / 46.48%)

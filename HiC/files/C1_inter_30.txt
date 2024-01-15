@@ -1,0 +1,24 @@
+Experiment description: Juicer version 1.6; BWA 0.7.17-r1188; 32 threads; openjdk version "11.0.20.1" 2023-08-24; ./scripts/juicer.sh -d /home/data2/haikuo/hic/C1_fastq -p /home/data2/haikuo/hic/references/hg19/sizes.genome -y /home/data2/haikuo/hic/juicer-1.6/hg19_Arima.txt -z /home/data2/haikuo/hic/references/hg19/GRCh37.primary_assembly.genome.fa -D /home/data2/haikuo/hic/juicer-1.6/CPU                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+Sequenced Read Pairs:  552,451,162
+ Normal Paired: 191,706,400 (34.70%)
+ Chimeric Paired: 287,442,512 (52.03%)
+ Chimeric Ambiguous: 68,610,990 (12.42%)
+ Unmapped: 4,691,260 (0.85%)
+ Ligation Motif Present: 0 (0.00%)
+Alignable (Normal+Chimeric Paired): 479,148,912 (86.73%)
+WARNING: sun.reflect.Reflection.getCallerClass is not supported. This will impact performance.
+WARN [2023-10-18T15:17:57,135]  [Globals.java:138] [main]  Development mode is enabled
+Unique Reads: 369,194,136 (66.83%)
+PCR Duplicates: 22,043,623 (3.99%)
+Optical Duplicates: 87,911,153 (15.91%)
+Library Complexity Estimate: 3,340,235,292
+Intra-fragment Reads: 0 (0.00% / 0.00%)
+Below MAPQ Threshold: 58,962,535 (10.67% / 15.97%)
+Hi-C Contacts: 310,231,601 (56.16% / 84.03%)
+ Ligation Motif Present: 0  (0.00% / 0.00%)
+ 3' Bias (Long Range): 50% - 50%
+ Pair Type %(L-I-O-R): 25% - 25% - 25% - 25%
+Inter-chromosomal: 63,801,274  (11.55% / 17.28%)
+Intra-chromosomal: 246,430,327  (44.61% / 66.75%)
+Short Range (<20Kb): 72,264,333  (13.08% / 19.57%)
+Long Range (>20Kb): 174,163,687  (31.53% / 47.17%)
